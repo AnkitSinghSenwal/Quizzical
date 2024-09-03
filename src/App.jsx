@@ -1,7 +1,6 @@
 import Home from "./component/Home/Home"
 import Quiz from "./component/Quiz/Quiz"
 import {useState} from 'react'
-import "./App.css"
 function App(){
 
   const [page, setPage] = useState(false);

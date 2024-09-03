@@ -35,3 +35,25 @@
 .start-button:hover {
   background-color: #3b4a8a; /* Slightly darker on hover */
 }
+
+
+/* Media query */
+
+@media only screen and (max-width: 420px) {
+  .quiz-box {
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .quiz-box {
+    padding: auto;
+    border-radius: 5px;
+    position: relative;
+    width: auto;
+  }
+}
+
